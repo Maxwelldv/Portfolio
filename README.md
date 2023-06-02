@@ -1,2 +1,2 @@
 # Portfolio
- Portfólio para divulgação de habilidades
+ Projeto criado para  portfólio.
