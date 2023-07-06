@@ -1,2 +1,1 @@
-# Portfolio
- Projeto criado para  portfólio.
+Um arquiteto apaixonado por design e inovação, que decidiu embarcar em uma emocionante jornada de transformação. Estou entusiasmado em anunciar minha transição de carreira para o campo da programação.
