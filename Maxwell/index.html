@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="section-1-bg">
+        <aside>
+            <div class="icon-menu" onclick="abrirmenu()">
+                <img src="menu-aberto.png" alt="menu-aberto" height="40px" width="50px">
+            </div><!--icon-menu-->
+
+            <div id="barra-menu">
+                <ul>
+                    <li>
+                        <a href="#">Início</a>
+                    </li>   
+                    <li>
+                        <a href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#">Projetos</a>
+                    </li>   
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre Mim</a>
+                    </li>
+                </ul>
+                <div class="C-icon">
+                    <span class="ícon"><ion-icon name="logo-github"></ion-icon></span>
+                    <span class="ícon" onclick="AbrirLinkedin()"><ion-icon name="logo-linkedin"></ion-icon></span>
+                    <span class="ícon"><ion-icon name="logo-whatsapp"></ion-icon></span>
+                </div><!--C-ícon-->
+            </div><!--barra-menu-->
+        </aside>
+        
+        <div class="main-title">
+            <h1>Eu sou Maxwell</h1>
+            <h2>Sou Desenvolvedor Front-end</h2>
+            <h5>Estou em busca de novos desafios!</h5>
+            <button class="btn" onclick="SobreMim()">Saber mais</button>
+
+            <div class="numeros">
+                <div class="title">
+                    <h3>50+</h3>
+                    <p>Meus clientes</p>
+                </div><!--title-->
+
+                <div class="title">
+                    <h3>80+</h3>
+                    <p>Projetos Completos</p>
+                </div><!--title-->
+
+                <div class="title">
+                    <h3>100K+</h3>
+                    <p>Meus ganhos</p>
+                </div><!--title-->
+            </div><!--numeros-->
+        </div><!--main-title-->
+     </div><!--section-1-bg-->
+    
+        <section id="C-sobre">
+        <section class="C-sobre">
+         <div class="image">
+            <img src="foto-max.jpg" alt="foto-max">
+            </div><!--image-->
+
+            <div class="sobre-mim">
+                <h1>Sobre mim</h1> 
+                <h4>Desenvolvedor & <span>Arquiteto e Urbanista</span></h4>
+                    <p><br>
+                         Um arquiteto apaixonado por design e inovação, que decidiu
+                         embarcar em uma emocionante jornada de transformação. 
+                         Estou entusiasmado em anunciar minha transição de carreira 
+                         para o campo da programação. 
+                         <br><br>
+                         Durante minha trajetória como arquiteto, tive o privilégio 
+                         de criar espaços que combinam funcionalidade, estética 
+                         e experiência do usuário. Essa experiência me proporcionou 
+                         uma mentalidade analítica, resolução de problemas e uma 
+                         habilidade única de visualizar soluções criativas. 
+                         <br><br>
+                         Movido pela curiosidade e pela constante busca por conhecimento, 
+                         percebi que a tecnologia desempenha um papel cada
+                         vez mais relevante na nossa sociedade e no mundo atual.
+                         Fascinado pelas possibilidades da programação, decidi 
+                         mergulhar de cabeça nesse universo de infinitas possibilidades. 
+                         <br><br>
+                         Recentemente, tenho me dedicado a aprimorar minhas habilidades 
+                         em JavaScript e HTML/CSS. Tenho buscado conhecimento em estruturas 
+                         de dados, algoritmos e desenvolvimento web, sempre ansioso para 
+                         aplicar esses conhecimentos em projetos práticos e desafiadores. <br>
+                    </p>
+                <button class="btn" onclick="Tecnologias()">Saber mais</button>
+            </div><!--sobre-mim-->
+        </section><!--C-sobre-->
+    </section>
+
+
+        <section id="container">
+        <section class="container">
+            <h1>Tecnologias</h1>
+            <div class="C-card">
+                <div class="card">
+                    <img src="html5.png" alt="html5">
+                    <h3>HTML5</h3>
+                    <h4>Conhecimento básico em HTML5</h4>
+                </div><!--card-->
+
+                <div class="card">
+                    <img src="css3.png" alt="html5">
+                    <h3>CSS3</h3>
+                    <h4>Conhecimento básico em CSS3</h4>
+                </div><!--card-->
+
+                <div class="card">
+                    <img src="javascript.jpg" alt="html5">
+                    <h3>JavaScript</h3>
+                    <h4>Noções de JavaScript</h4>
+                </div><!--card-->
+            </div><!--C-card-->
+
+            <div class="projetos">
+                <h1>Projetos</h1>
+            </div><!--projetos-->
+
+            <div class="C-card-2">
+                
+               
+                <div class="card">
+                    <img src="tracoarquitetura.png" alt="tracoarquitetura">
+                    <h3>Traço Arquitetura</h3>
+                    <h4>Noções de JavaScript</h4>
+                </div><!--card-->
+
+                <div class="card">
+                    <img src="horoscopo.png" alt="horoscopo">
+                    <h3>Horóscopo</h3>
+                    <h4>Consulte seu Horóscopo</h4>
+                </div><!--card-->
+
+            </div><!--C-card-2-->
+
+        </section><!--container-->
+    </section>
+  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*início--------------------------------------------------*/
+
+
+.section-1-bg{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;   
+}
+
+
+.icon-menu img{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.icon-menu img:hover{
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+#barra-menu {
+    background-color: rgb(31, 17, 45);
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#barra-menu ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 15px;
+   width: 100%;
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #692e6c;
+    padding: 8px;
+    border-radius: 15px;
+    background: rgb(155, 95, 205);
+}
+
+.C-icon{
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.C-icon span{
+    color: #fff;
+}
+
+.C-icon span:hover{
+    transition: 0.2s;
+    transform: 0.5s;
+    color: #c450ca;
+}
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
+
+.main-title h1{
+    font-size: 70px;
+    color: #fff;
+    margin-top: 15%;
+    font-family: "poppins";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-title h2{
+color: #c450ca;
+font-size: 45px;
+font-family: "Hanuman";
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.main-title h5{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Hanuman";
+    font-weight: 200;
+    letter-spacing: 2px;  
+}
+
+.main-title button{
+    width: 150px;
+    margin-top: 80px;
+    padding: 8px 5px;
+    font-size: 22px;
+    background-color: #c450ca;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "Orborn";
+    cursor: pointer;
+    transition-duration: 0.9s;
+    box-shadow: 2px 2px 2px #af79b8;
+}
+
+.main-title button:hover{
+    border: solid 1px;
+    color: #c450ca;
+    transition: 0.5s;
+    background-color: transparent;
+    width: 150px;
+}
+
+.numeros{
+    display: flex;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 15px;
+    gap: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Hanuman";
+}
+
+.title h3{
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: "Hanuman";
+    font-weight: bold;
+}
+
+.title p{
+    font-family: "Hanuman";
+    font-weight: normal;
+}
+
+.title:hover{
+    transition: 1.2;
+    transform: scale(1.1);  
+}
+
+@media screen and (max-width: 500px){
+    .main-title h1{
+        font-size: 50px;
+        margin-top: 35%;
+        margin-right: 10%;
+    }
+
+    .main-title h2{
+        font-size: 25px;
+        margin-right: 15%;
+    }
+
+    .main-title button{
+        width: 150px;
+    }
+
+    .numeros{
+        margin-right: 25%;
+        margin-top: 50%;
+    }
+}
+
+    
+/*---------------------Sobre mim------------------------*/
+
+
+.C-sobre{
+    display: flex;
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 150vh;  
+    width: 100%;
+    justify-content: space-around;
+    padding: 150px 0px;
+    flex-wrap: wrap;
+}
+
+.image img{
+    margin-top: 30px    ;
+    width: 400px;
+    height: auto;
+    box-shadow: 6px 6px 6px;
+}
+
+.sobre-mim h1{
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    font-family: "poppins"; 
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+.sobre-mim h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Hanuman";
+    margin-left: -5px;
+}
+
+.sobre-mim span{
+    color: #c450ca;
+}
+
+.sobre-mim p{
+    width: 500px;
+    text-align: justify;
+    color: #fff;
+    margin-top: 10px;
+    font-family: "poppins";
+}
+
+.sobre-mim button{
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 150px;
+    padding: 8px 5px;
+    font-size: 22px;
+    background-color: #c450ca;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "Orborn";
+    cursor: pointer;
+    transition-duration: 0.9s;
+    box-shadow: 2px 2px 2px #af79b8;
+}
+.sobre-mim button:hover{
+    border: solid 1px;
+    color: #c450ca;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 500px){
+    .image img{
+        width: 300px;
+        height: auto;
+    }
+
+.sobre-mim p{
+        font-size: 12px;
+        margin: 10%;
+    }
+} 
+
+/*----------------------Cards--------------------------*/
+.container{
+    width: 100%;
+    background-image: url("background5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: "poppins";
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.C-card{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.card{
+    background-image: url("background4.jpg");
+    width: 200px;
+    height: auto;
+    box-shadow: #692e6c 4px 4px 4px;
+}
+
+.card img{
+    width: 70px;
+    height: auto;
+}
+
+.projetos{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: "poppins";
+    padding-top: 10%;
+    font-weight: bold;
+}
+
+
+.C-card-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    text-align: center;
+}
+
